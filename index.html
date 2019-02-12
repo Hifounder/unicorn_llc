@@ -11,6 +11,13 @@
 
 <body>
     <section class="section_bg">
+        <!-- <div class="youtube">
+                <div id="muteYouTubeVideoPlayer" class="section_bg"></div>
+        </div> -->
+        <video autoplay muted loop id="myvideo">
+            <source src="asset/video/sky.mp4">
+            </source>
+        </video>
         <div class="index_bg">
             <div class="index_left">
                 <p class="left_top">合同会社ユニコーンプラス UNICORNPLUS LLC</p>
@@ -53,6 +60,35 @@
     <footer>
         <p>Copyright © UNICORNPLUS LLC</p>
     </footer>
+
+    <script async src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        function onYouTubeIframeAPIReady() {
+            var player;
+            player = new YT.Player('muteYouTubeVideoPlayer', {
+                videoId: 'HKY2RLoUlNE', // YouTube 影片ID
+                playerVars: {
+                    autoplay: 1,        // 在讀取時自動播放影片
+                    controls: 1,        // 在播放器顯示暫停／播放按鈕
+                    showinfo: 1,        // 隱藏影片標題
+                    modestbranding: 1,  // 隱藏YouTube Logo
+                    loop: 1,            // 讓影片循環播放
+                    fs: 1,              // 隱藏全螢幕按鈕
+                    cc_load_policty: 0, // 隱藏字幕
+                    iv_load_policy: 3,  // 隱藏影片註解
+                    autohide: 0         // 當播放影片時隱藏影片控制列
+                },
+                events: {
+                    onReady: function (e) {
+                        e.target.mute();
+                    }
+                }
+            });
+        }
+
+
+ // Written by @labnol 
+    </script>
 </body>
 
 </html>
