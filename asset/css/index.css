@@ -295,12 +295,13 @@ footer {
     margin-top: 0;
   }
   .index_left {
-    padding: 40px 0 60px 60px;
+    padding: 5vh 0 5.5vh 60px;
+    height: 25vh;
     width: calc(100% - 50px);
   }
   .index_right {
     width: 100%;
-    height: calc(100vh - 446px);
+    height: 54vh;
   }
   .link_bg {
     position: relative;
@@ -364,6 +365,7 @@ footer {
   }
   .index_left {
     width: calc(100% - 47px);
+    height: auto;
     background-color: #fff;
     padding: 38px 0 17px 47px;
   }
