@@ -23,13 +23,7 @@ a {
   z-index: -19;
 }
 
-.v_color {
-  z-index: -18;
-  background-color: #2B5CD8;
-}
-
-#myvideo,
-.v_color {
+#myvideo {
   position: fixed;
   right: 0;
   bottom: 0;
