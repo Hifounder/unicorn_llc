@@ -85,24 +85,31 @@ a {
 }
 
 .special_title {
-  font-size: 57px;
-  width: 469px;
+  font-size: 66px;
   font-weight: bold;
-  position: absolute;
+}
+
+.special_title_2 {
+  float: left;
+  padding-right: 15px;
 }
 
 .special_second {
-  font-size: 42px;
-  position: absolute;
+  width: 188.51px;
+  font-size: 23px;
   font-weight: bold;
-  width: 395px;
-  margin-top: 170px;
+  height: 65px;
+  border-left: 5px solid #2B5CD8;
+  line-height: 31px;
+  padding: 0 15px;
+  float: left;
+  margin-top: 22px;
 }
 
 .special_about {
   position: absolute;
   font-size: 12px;
-  bottom: -340px;
+  bottom: -145px;
   width: 200px;
 }
 
@@ -210,17 +217,19 @@ footer {
     width: 81%;
   }
   .border_b {
-    margin-top: 371px;
+    margin-top: 412px;
+    margin-bottom: 72px;
   }
   .special_title {
-    font-size: 4vw;
+    font-size: 58px;
+    font-weight: bold;
   }
   .special_second {
-    font-size: 2.95vw;
-    margin-top: 12vw;
+    font-size: 20px;
+    margin-top: 14px;
   }
   .special_about {
-    bottom: -340px;
+    bottom: -77px;
   }
   .index_right {
     -ms-flex-wrap: wrap;
@@ -266,33 +275,33 @@ footer {
     width: 90%;
     height: 89.5vh;
   }
-  .special_title {
-    font-size: 54px;
-  }
-  .special_second {
-    font-size: 42px;
-  }
   .left_top,
   .special_about {
     display: none;
   }
   .border_b {
     border-top: 20px solid #2B5CD8;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 80px;
     width: 156px;
   }
   .index_left,
   .index_right {
     position: static;
   }
-  .special_title,
-  .special_second,
+  .special_title {
+    font-size: 7vw;
+  }
+  .special_second {
+    margin-top: 1vh;
+    width: auto;
+    font-size: 2.5vw;
+    line-height: normal;
+    height: 6vh;
+  }
   .special_about {
     position: static;
     width: 100%;
-  }
-  .special_second {
-    margin-top: 0;
   }
   .index_left {
     padding: 5vh 0 5.5vh 60px;
@@ -370,11 +379,17 @@ footer {
     padding: 38px 0 17px 47px;
   }
   .special_title {
-    font-size: 30px;
+    font-size: 32px;
   }
   .special_second {
-    margin-top: 0;
-    font-size: 22px;
+    margin-top: 7px;
+    line-height: 18px;
+    height: 39px;
+    font-size: 16px;
+    width: auto;
+  }
+  .index_left {
+    padding: 38px 0 17px 30px;
   }
   .index_right {
     -ms-flex-wrap: wrap;
