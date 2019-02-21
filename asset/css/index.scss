@@ -199,7 +199,7 @@ footer {
     display: none;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1680px) {
     .index_bg {
         padding: 55px;
         width: 81%;
@@ -258,7 +258,7 @@ footer {
     }
 }
 
-@media screen and (max-width:1025px) {
+@media screen and (max-width:1290px) {
     .index_bg {
         padding: 0%;
         width: 90%;
@@ -279,16 +279,13 @@ footer {
     .index_right {
         position: static;
     }
-    .special_title {
-        font-size: 7vw;
-    }
-    .special_second {
-        margin-top: 1vh;
-        width: auto;
-        font-size: 2.5vw;
-        line-height: normal;
-        height: 6vh;
-    }
+    // .special_second {
+    //     margin-top: 1vh;
+    //     width: auto;
+    //     font-size: 2.5vw;
+    //     line-height: normal;
+    //     height: 6vh;
+    // }
     .special_about {
         position: static;
         width: 100%;
