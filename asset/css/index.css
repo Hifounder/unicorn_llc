@@ -73,7 +73,7 @@ a {
 
 .border_b {
   border-top: 5px solid #2B5CD8;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   margin-top: 300px;
   width: 156px;
 }
@@ -87,6 +87,8 @@ a {
 .special_title {
   font-size: 66px;
   font-weight: bold;
+  line-height: 50px;
+  margin-top: 23px;
 }
 
 .special_title_2 {
@@ -282,7 +284,7 @@ footer {
   .border_b {
     border-top: 20px solid #2B5CD8;
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 10vh;
     width: 156px;
   }
   .index_left,
@@ -380,6 +382,8 @@ footer {
   }
   .special_title {
     font-size: 32px;
+    line-height: normal;
+    margin-top: 0;
   }
   .special_second {
     margin-top: 7px;
